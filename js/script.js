@@ -1,4 +1,4 @@
-[
+const icons = [
 	{
 		name: 'cat',
 		prefix: 'fa-',
@@ -112,3 +112,20 @@
 		color: 'blue'
 	}
 ];
+
+console.log(icons)
+
+for ( i = 0; i < icons.lenght; i++ ){
+    let oggetto = icons[i];
+    Nome = oggetto.name;
+    prefisso = oggetto.prefix;
+    tipo = oggetto.type;
+    famiglia = oggetto.family;
+    colore = oggetto.color;
+
+    document.querySelector('.container').innerHTML += `        
+    <div>
+        <i class = "${prefisso} ${tipo} ${famiglia} ${colore}"></i> alt="${Nome}"
+        <span>${Nome}</span>
+    </div>`  
+}
