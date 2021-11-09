@@ -1,8 +1,8 @@
 //Utilizzo il ciclo for per analizzare gli elementi presenti nell'array
 // Creo delle costanti
 // Utilizzo il query selector per collegare l'array con il div container
-//Attraverso innerHTML stampo in pagina le varie car
-//Utilizzo il filter per estrapolare e raggruppare dall'array gli elementi dello stesso colore diverso
+//Attraverso innerHTML stampo in pagina le varie card
+//Utilizzo il filter per estrapolare e raggruppare dall'array gli elementi dello stesso colore
 
 const icons = [
 	{
